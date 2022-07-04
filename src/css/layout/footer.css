@@ -1,0 +1,50 @@
+.footer{
+    background-color: #100E1D;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+.footer a{color: white;}
+@media (min-width: 768px) {
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-nav a{
+    border-bottom: solid 2px transparent;
+    transition: all .2s ease-in-out;
+    width: 85px;
+}
+.footer-nav a:hover{
+    border-bottom: solid 2px white;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.social{padding: 20px 0;}
+.social h3{
+    color: white;
+    font-weight: bold;
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+}
+.social-icon{
+    width: 24px;
+    height: 24px;
+    transition: all .3s;
+}
+.social-icon:hover{
+    transform: scale(1.5);
+}
+.footer .email label{color: white;}
+.footer .email{padding: 20px 0;}
+.createdBy{text-align: center; color: white; margin: 0; margin-top: 30px;}
+.createdBy span{font-weight: 600;}

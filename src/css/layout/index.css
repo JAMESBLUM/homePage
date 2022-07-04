@@ -1,0 +1,167 @@
+.heroImage{padding: 0px 10px;}
+.heroImage img{border-radius: 9px;}
+@media (min-width: 768px) {
+    .heroImage img{border-radius: 18px;}
+}
+.heroContent span{color: #2D9CDB;}
+.email label{font-size: 14px;}
+.email-input{margin-top: 10px;}
+.email-input input{
+    border: none;
+    border-radius: 12px;
+    background-color: #F2F2F2;
+    width: 271px;
+    height: 47px;
+    padding-left: 19px;
+}
+.email-input button{
+    background-color: #2D9CDB;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    width: 71px;
+    height: 39px;
+    cursor: pointer;
+    margin-left: -75px;
+}
+.email-input{
+    display: flex;
+    align-items: center;
+}
+/*================== Offer ==================*/
+.offerts-content{padding-top: 92px;}
+@media (min-width: 768px) {
+    .offerts-content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.offer{
+    padding: 34px;
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+@media (min-width: 768px) {
+    .offer{width: 341px;}
+}
+.offer:hover{
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 15px;
+}
+.offer:hover .btn-principal{
+    background-color: #2D9CDB;
+    color: white;
+}
+.offer-icon{
+    width: 67px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 30%;
+}
+.offer-icon span{
+    font-size: 40px;
+}
+.offer-desc{margin-top: 31px;}
+.offer-desc h3{font-weight: bold;}
+
+/* Good Design */
+.projects{padding: 20px 0;}
+.project{margin: 20px 0;}
+.project img{border-radius: 20px;}
+.project p{margin: 10px 0 0 0;}
+.project span{
+    color: #828282; 
+    font-weight: regular;
+}
+.project-title{font-weight: bold}
+.seeMore{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    gap: 5px;
+}
+.seeMore a, .seeMore span{
+    color:#2D9CDB;
+}
+@media (min-width: 768px) {
+    .lastProject{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .seeMore{justify-content: flex-end;}
+}
+@media (min-width: 768px) {
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .down{
+     margin-top: 188px;
+    }
+}
+/* meet the team */
+.meetTeam-desc span{
+    color: #EB5757;
+    font-weight: 500;
+}
+@media (min-width: 768px) {
+    .meetTeam{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+.meetTeam-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+}
+.meetTeam-img img{border-radius: 25px;}
+.personTres{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    justify-content: right;
+    display: flex;
+    justify-content: right;
+}
+.personDos{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+@media (min-width: 1200px) {
+    .personUno img{width: 260px; height: 260px;}
+    .personDos img{width: 360px; height: 360px;}
+    .personTres img{width: 320px; height: 320px;}
+}
+
+/* Comment */
+.comment{margin: 30px 0;}
+@media (min-width: 1200px) {
+    .comment{width: 800px; height: auto;}
+}
+.comment-person{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: #333333;
+    padding-top: 36px;
+}
+.comment-person-name p:last-child{color: #828282;}
+.comment-person img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}

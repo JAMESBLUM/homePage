@@ -1,0 +1,27 @@
+.espacio{margin: 15px 0 22px 0;}
+.dobleEspacio{padding: 101px 0;}
+@media (min-width: 768px) {
+    .subtitleContainer{
+        width: 500px;
+    }
+    .subtitleContainerS{
+        width: 400px;
+    }
+}
+.bg-blue{background-color:#2D9CDB;}
+.bg-green{background-color: #27AE60;}
+.bg-red{background-color: #EB5757;}
+
+/*Buttons*/
+.btn-principal{
+    border: none;
+    border-radius: 10px;
+    width: 116px;
+    height: 42px;
+    cursor: pointer;
+    color: #828282;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+
