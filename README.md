@@ -87,3 +87,4 @@ $ npm start
 ## Contact
 
 - GitHub [@JAMESBLUM](https://github.com/JAMESBLUM)
+- Instagram [@_edrv_](https://www.instagram.com/_edrv_/)
